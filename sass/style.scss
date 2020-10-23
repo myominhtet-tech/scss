@@ -1,0 +1,25 @@
+@import "variables";
+h1 {
+  color: $primary-color;
+  border: 2px solid green;
+}
+p {
+  background: $secondary-color;
+  color: $primary-color;
+}
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+div {
+  a {
+    background: $primary-color;
+  }
+  a:hover {
+    @extend h1;
+    background: $hover-color;
+    text-decoration: none;
+    padding: 50px;
+    @include border-radius(50%);
+  }
+}

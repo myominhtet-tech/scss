@@ -1,0 +1,22 @@
+h1, div a:hover {
+  color: #17ce27;
+  border: 2px solid green;
+}
+
+p {
+  background: #32bdcf;
+  color: #17ce27;
+}
+
+div a {
+  background: #17ce27;
+}
+
+div a:hover {
+  background: grey;
+  text-decoration: none;
+  padding: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
